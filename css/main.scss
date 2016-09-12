@@ -1,0 +1,35 @@
+body {
+  background-color: darken(white, 5);
+}
+
+img {
+  width: 100%;
+}
+
+.mdl-grid {
+  max-width: 960px;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.image-card.mdl-card {
+  background-size: cover;
+  background-position: center;
+}
+
+.image-card > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.mdl-layout-title {
+  margin-right: 50px;
+}
+
+.caption {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
